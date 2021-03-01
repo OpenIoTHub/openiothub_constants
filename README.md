@@ -1,6 +1,6 @@
 # openiothub_constants
 
-openiothub_constants
+用于保存云易连项目用到的共享常量
 
 ## Getting Started
 
