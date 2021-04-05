@@ -9,6 +9,7 @@ jobs:
       # 拉取仓库代码
       - name: "Checkout"
         uses: actions/checkout@v2
+      - run: flutter pub get
       # 发布插件
       - name: Dart and Flutter Package Publisher
         uses: k-paxian/dart-package-publisher@v1.3
