@@ -9,3 +9,7 @@
 ## [0.0.2+1]
 
 * iot-manager addr config
+
+## [0.0.2+2]
+
+* remove flutter
