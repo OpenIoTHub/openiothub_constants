@@ -6,6 +6,9 @@ class Config {
   static String webgRpcIp = "127.0.0.1";
   static int webgRpcPort = 2080;
 
+  static String iotManagergRpcIp = "iot-manager.iotserv.com";
+  static int iotManagerRpcPort = 8881;
+
 //http的api，目前主要是ssh的websocket
   static int webRestfulPort = 1081;
 
