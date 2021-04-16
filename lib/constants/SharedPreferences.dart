@@ -1,4 +1,4 @@
-class SharedPreferences {
+class SharedPreferencesKey {
 // SharedPreferences  KEY
 //设备和服务的别名
   static final String DEVICE_CNAME_KEY = "device_cname";
