@@ -9,8 +9,11 @@ jobs:
       # 拉取仓库代码
       - name: "Checkout"
         uses: actions/checkout@v2
+      - uses: subosito/flutter-action@v1
+        with:
+          channel: 'stable'
+      - run: flutter pub get
+      - run: echo ${{ secrets.CREDENTIAL_JSON }} > ~/.pub-cache/credentials.json
       # 发布插件
       - name: Publish
-        uses: k-paxian/dart-package-publisher@master
-        with:
-          credentialJson: ${{ secrets.CREDENTIAL_JSON }}
+        run: flutter packages pub publish
