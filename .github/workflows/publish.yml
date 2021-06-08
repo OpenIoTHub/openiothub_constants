@@ -16,4 +16,4 @@ jobs:
       - run: echo ${{ secrets.CREDENTIAL_JSON }} > $PUB_CACHE/credentials.json
       # 发布插件
       - name: Publish
-        run: flutter packages pub publish
+        run: flutter packages pub publish -f
