@@ -13,7 +13,8 @@ jobs:
         with:
           channel: 'stable'
       - run: flutter pub get
-      - run: echo ${{ secrets.CREDENTIAL_JSON }} > $PUB_CACHE/credentials.json
+      - name: Credentials
+        run: echo ${{ secrets.CREDENTIAL_JSON }} > $PUB_CACHE/credentials.json
       # 发布插件
       - name: Publish
         run: flutter packages pub publish -f
