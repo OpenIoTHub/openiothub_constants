@@ -15,9 +15,6 @@ jobs:
       - run: flutter pub get
       # 发布插件
       - name: Publish
-        uses: sakebook/actions-flutter-pub-publisher@v1.3.1
+        uses: k-paxian/dart-package-publisher@master
         with:
-          credential: ${{ secrets.CREDENTIAL_JSON }}
-          flutter_package: false
-          skip_test: true
-          dry_run: false
+          credentialJson: ${{ secrets.CREDENTIAL_JSON }}
