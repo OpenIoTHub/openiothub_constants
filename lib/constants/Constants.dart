@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class Constants {
   static final double ARROW_ICON_WIDTH = 16.0;
-  static final titleTextStyle = const TextStyle(fontSize: 16.0);
+  static final titleTextStyle = const TextStyle(fontSize: 16.0,
+      fontWeight: FontWeight.bold);
   static final rightArrowIcon = Image.asset(
     'assets/images/ic_arrow_right.png',
     width: ARROW_ICON_WIDTH,
