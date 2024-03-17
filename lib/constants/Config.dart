@@ -1,11 +1,20 @@
 class Config {
-//  serve web static file
+// flutter serve web static file
   static String webStaticIp = "127.0.0.1";
   static int webStaticPort = 9000;
-
+  // 数据服务器服务后台
   static String iotManagergRpcIp = "iot-manager.iotserv.com";
   static int iotManagerRpcPort = 8881;
 
+  // 修改上面的变量名称
+  static String iotManagerGrpcIp = "iot-manager.iotserv.com";
+  static int iotManagerGrpcPort = 8881;
+
+  // 本机网关的grpc地址
+  static String gatewayGrpcIp = "127.0.0.1";
+  static int gatewayGrpcPort = 55443;
+
+  // go后台服务本机webserver
   static String webgRpcIp = "127.0.0.1";
   static int webgRpcPort = 2080;
 //http的api，目前主要是ssh的websocket
