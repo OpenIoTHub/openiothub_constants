@@ -3,12 +3,13 @@ class Config {
   static String webStaticIp = "127.0.0.1";
   static int webStaticPort = 9000;
   // 数据服务器服务后台
-  static String iotManagergRpcIp = "iot-manager.iotserv.com";
+  static String iotManagergRpcIp = "api.iot-manager.iothub.cloud";
   static int iotManagerRpcPort = 8881;
 
   // 修改上面的变量名称
-  static String iotManagerGrpcIp = "iot-manager.iotserv.com";
+  static String iotManagerGrpcIp = "api.iot-manager.iothub.cloud";
   static int iotManagerGrpcPort = 8881;
+  static String iotManagerHttpIp = "api.iot-manager.iothub.cloud";
 
   // 本机网关的grpc地址
   static String gatewayGrpcIp = "127.0.0.1";
