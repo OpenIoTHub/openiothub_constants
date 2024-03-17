@@ -1,3 +1,7 @@
+## [1.0.1+3]
+
+* gateway key
+
 ## [1.0.1+2]
 
 * add local gateway Ip and Port

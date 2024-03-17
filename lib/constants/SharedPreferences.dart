@@ -25,4 +25,7 @@ class SharedPreferencesKey {
   static final String USER_AVATAR_KEY = "USER_AVATAR_KEY";
 //  用户Token
   static final String USER_TOKEN_KEY = "USER_TOKEN_KEY";
+
+  static final String Gateway_Jwt_KEY = "GATEWAY_JWT_KEY";
+  static final String QR_Code_For_Mobile_Add_KEY = "QR_Code_For_Mobile_Add";
 }
