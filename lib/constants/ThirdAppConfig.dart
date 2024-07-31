@@ -5,6 +5,6 @@ class WeChatConfig {
 }
 
 class QQConfig {
-  static const String QQ_APPID = 'b6b7a8cb4b26baf96ce192163459a90e';
+  static const String QQ_APPID = '1111913707';
   static const String QQ_UNIVERSAL_LINK = 'https://iothub.cloud/qq_conn/1111913707'; // iOS 请配置
 }
